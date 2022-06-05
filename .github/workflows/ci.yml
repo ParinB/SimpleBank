@@ -1,14 +1,15 @@
 name: simplebank-ci
-
+#An event that will be triggered went code is pushed or pulled
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+# set of steps execute on the same runner #normal jobs run in parallel #dependent jobs run serially
 jobs:
 
   test:
+    #server that listens for available jobs
     runs-on: ubuntu-latest
 
     services:

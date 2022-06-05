@@ -31,7 +31,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/db/sqlc/db.go">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/db/sqlc/main_test.go">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/db/util/config.go">
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />

@@ -3,13 +3,14 @@ package api
 import (
 	"database/sql"
 	"github.com/gin-gonic/gin"
+	"github.com/lib/pq"
 	db "github.com/parin/simplebank/db/sqlc"
 	"net/http"
 )
 
 type  createAccountRequest struct {
 	Owner string `json:"owner" binding:"required"`
-	Currency string `json:"currency" binding:"required,oneof=USD EUR"`
+	Currency string `json:"currency" binding:"required,currency`
 }
 func (server *Server) createAccount(ctx *gin.Context) {
 	var req createAccountRequest
@@ -25,6 +26,15 @@ func (server *Server) createAccount(ctx *gin.Context) {
 	}
 
 	account,err := server.store.CreateAccount(ctx , arg)
+	if err != nil {
+		if pqErr,ok := err.(*pq.Error); ok {
+			switch pqErr.Code.Name()  {
+			case "foreign_key_violation","unique_violation":
+				ctx.JSON(http.StatusForbidden,errorResponse(err))
+				return
+			}
+		}
+	}
 	if err != nil {
 		ctx.JSON(http.StatusInternalServerError,errorResponse(err))
 		return

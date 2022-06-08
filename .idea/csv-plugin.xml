@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/.github/workflows/deploy.yml">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Makefile">
           <value>
             <Attribute>
@@ -17,10 +24,24 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/api/user_test.go">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/db/migration/000001_init_schema.up.sql">
           <value>
             <Attribute>
               <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/db/migration/000002_add_users.up.sql">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
@@ -49,6 +70,13 @@
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/docker-compose.yaml">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
             </Attribute>
           </value>
         </entry>

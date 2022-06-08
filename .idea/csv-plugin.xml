@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/.github/workflows/deploy.yml">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Makefile">
           <value>
             <Attribute>
@@ -63,6 +70,13 @@
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/docker-compose.yaml">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
             </Attribute>
           </value>
         </entry>

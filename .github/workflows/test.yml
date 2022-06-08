@@ -1,4 +1,4 @@
-name: simplebank-ci
+name: Run unit tests
 #An event that will be triggered went code is pushed or pulled
 on:
   push:

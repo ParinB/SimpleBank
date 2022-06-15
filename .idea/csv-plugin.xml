@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/api/account.go">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/api/user_test.go">
           <value>
             <Attribute>
@@ -73,10 +80,24 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/doc/db.dbml">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/docker-compose.yaml">
           <value>
             <Attribute>
               <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/token/jwt_maker.go">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
             </Attribute>
           </value>
         </entry>

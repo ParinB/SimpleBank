@@ -1,0 +1,13 @@
+2022-06-15T15:54:18.344Z
+Error: ENOENT: no such file or directory, stat '/Users/parinkimani007/Documents/workspaces/golang/src/github.com/parin/golang-tuts/simplebank/doc/db.db.dbml'
+    at Object.statSync (node:fs:1559:3)
+    at validateFilePlugin (/Users/parinkimani007/.nvm/versions/node/v18.1.0/lib/node_modules/@dbml/cli/lib/cli/validatePlugins/validatePlugins.js:13:28)
+    at /Users/parinkimani007/.nvm/versions/node/v18.1.0/lib/node_modules/@dbml/cli/lib/cli/utils.js:28:31
+    at Array.every (<anonymous>)
+    at validateInputFilePaths (/Users/parinkimani007/.nvm/versions/node/v18.1.0/lib/node_modules/@dbml/cli/lib/cli/utils.js:28:16)
+    at exportHandler (/Users/parinkimani007/.nvm/versions/node/v18.1.0/lib/node_modules/@dbml/cli/lib/cli/export.js:33:39)
+    at Object.dbml2sql (/Users/parinkimani007/.nvm/versions/node/v18.1.0/lib/node_modules/@dbml/cli/lib/cli/index.js:27:23)
+    at Object.<anonymous> (/Users/parinkimani007/.nvm/versions/node/v18.1.0/lib/node_modules/@dbml/cli/bin/dbml2sql.js:4:19)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+

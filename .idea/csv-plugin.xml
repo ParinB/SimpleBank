@@ -17,6 +17,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/.github/workflows/test.yml">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Dockerfile">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Makefile">
           <value>
             <Attribute>

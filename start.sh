@@ -1,9 +1,11 @@
-    #!/bin/sh
-    set -e
+#!/bin/sh
 
-    echo "run db migration"
-    source /app/app.env
-    /app/migrate -path /app/migration -database "$DB_SOURCE" -verbose up
+  set -e
 
-    echo "start the app"
-    exec "$@"
+  echo "start the app"
+  exec "$@"
+
+  echo "run db migration"
+  source /app/app.env
+  /app/migrate -path /app/migration -database "$DB_SOURCE" -verbose up
+

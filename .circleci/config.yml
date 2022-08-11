@@ -11,4 +11,4 @@ jobs:
        - image: cimg/go:1.19.0
     steps:
        - checkout
-       - run: node --version
+       - run: go version
